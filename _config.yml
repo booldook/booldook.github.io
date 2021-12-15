@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Booldook's Garden
+title: Booldook's Pub
 subtitle: "This blog covers front-end & back-end development."
 email: booldook@gmail.com
 name: D.K. Lim

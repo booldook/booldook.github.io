@@ -10,3 +10,9 @@ _site
 .bundle/
 vendor/
 .idea
+
+.jekyll-cache
+
+_drafts
+_lagacy
+

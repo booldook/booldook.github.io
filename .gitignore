@@ -5,15 +5,15 @@ _site
 
 # Sass garbage
 .sass-cache
+.jekyll-cache
 
 # Bundler
 .bundle/
 vendor/
 .idea
 
-.jekyll-cache
 
-_drafts
+#_drafts
 _lagacy
 
 

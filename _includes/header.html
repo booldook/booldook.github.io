@@ -1,12 +1,9 @@
 <header class="navigation" role="banner">
   <div class="navigation-wrapper">
-    <a href="{{ site.baseurl }}/" class="logo" style="text-decoration: none;">
+    <a href="{{ site.baseurl }}/" class="logo" style="display: flex; align-items: center;">
       {% if site.logo %}
-      <div class="d-flex align-items-center" style="padding-top: 11px;">
-        <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}"
-             style="margin-top: 0;">
-        <h4 style="margin: 0;">{{ site.title }}</h4>
-      </div>
+      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
+      <span>{{ site.title }}</span>
       {% else %}
       <span>{{ site.title }}</span>
       {% endif %}
@@ -16,11 +13,7 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+				{% include nav_links.html %}
       </ul>
     </nav>
   </div>

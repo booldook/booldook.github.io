@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://booldook.com/javascript/2019/08/31/lightsail-001.html</loc>
+<lastmod>2019-08-31T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://booldook.com/nodejs/2021/12/15/nodejs-001.html</loc>
+<lastmod>2021-12-15T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://booldook.com/about/</loc>
+</url>
+<url>
+<loc>https://booldook.com/</loc>
+</url>
+<url>
+<loc>https://booldook.com/posts/</loc>
+</url>
+<url>
+<loc>https://booldook.com/category/javascript/</loc>
+</url>
+<url>
+<loc>https://booldook.com/category/nodejs/</loc>
+</url>
+</urlset>
